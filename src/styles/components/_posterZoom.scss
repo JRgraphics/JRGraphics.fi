@@ -1,0 +1,28 @@
+.poster-zoom {
+  &-container {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  &-bg {
+    background-color: #00000063;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  &-image {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    img {
+      max-height: 80%;
+      max-width: 80%;
+    }
+  }
+}
